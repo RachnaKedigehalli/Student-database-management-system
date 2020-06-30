@@ -24,7 +24,8 @@ signUpButton.addEventListener('click', () => {
 signInButton.addEventListener('click', () => {
     container.classList.remove("right-panel-active");
     document.getElementsByClassName('left')[0].innerHTML=
-                `<div class="form" action="#">
+                `<iframe name="dest3"></iframe>
+                <div class="form" action="#" target="dest3">
                     <h1>View Student</h1>
                     <input type="number" name="reg_id" id="Reg_id" placeholder="Registration number" />
                     <span>OR</span>

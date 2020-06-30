@@ -241,7 +241,8 @@ input {
 .field{
     overflow-wrap: break-word;
     font-size: 110%;
-    font-weight: 500; 
+    font-weight: 500;
+    width:75%;
 }
 .del{
     border-radius: 20px;
@@ -254,7 +255,7 @@ input {
     letter-spacing: 1px;
     transition: transform 80ms ease-in;
     position:absolute;
-    top:2px;
+    top:15px;
     right:6px;
 
 }
@@ -269,7 +270,7 @@ input {
     letter-spacing: 1px;
     transition: transform 80ms ease-in;
     position:absolute;
-    bottom:2px;
+    bottom:15px;
     right:6px;
 }
 #stadd{
@@ -281,3 +282,4 @@ span{
 span.title{
     font-weight: 600;
 }
+
