@@ -22,18 +22,6 @@ const StudentSchema = new Schema({
         type: Number,
         required: [true, 'Roll number is required']
     },
-    dob: {
-        type: String
-    },
-    father: {
-        type: String
-    },
-    mother: {
-        type: String
-    },
-    ph_no: {
-        type: Number
-    }
 });
 
 const Student = mongoose.model('student', StudentSchema);

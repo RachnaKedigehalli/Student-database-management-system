@@ -35,8 +35,8 @@ var Search = function(){
 
                     document.getElementsByClassName('left')[0].innerHTML=`<div class="form"><h1 id="stadd">Student not found.</h1></div>`;
                 }
-                }
             }
+        }
         
         if(Reg_id.value){
             http.open("GET", `http://localhost:4000/api/reg_id/${Reg_id.value}`, true);
